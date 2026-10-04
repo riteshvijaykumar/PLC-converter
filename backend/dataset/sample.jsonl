@@ -1,0 +1,100 @@
+{"source": "NOT I2.6 -> Q0.1", "target": "XIO(I2.6) OTE(Q0.1)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TON Timer_7 IN:=I5.0 PT:=T#10s", "target": "TON(Timer_7,10000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I1.6 AND I6.1 -> Q3.1", "target": "XIC(I1.6) XIC(I6.1) OTE(Q3.1)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TON Timer_28 IN:=I0.1 PT:=T#1s", "target": "TON(Timer_28,1000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TON Timer_38 IN:=I6.0 PT:=T#1s", "target": "TON(Timer_38,1000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TON Timer_9 IN:=I4.6 PT:=T#1s", "target": "TON(Timer_9,1000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TON Timer_20 IN:=I2.1 PT:=T#10s", "target": "TON(Timer_20,10000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I1.1 -> Q0.3", "target": "XIO(I1.1) OTE(Q0.3)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "RESET Q6.5", "target": "OTU(Q6.5)", "category": "latch_reset", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TON Timer_30 IN:=I5.4 PT:=T#1s", "target": "TON(Timer_30,1000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTD Counter_50 CD:=I3.1 R:=I4.7 PV:=44", "target": "CTD(Counter_50,44)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I1.1 -> Q6.2", "target": "XIO(I1.1) OTE(Q6.2)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I2.7 -> Q6.0", "target": "XIO(I2.7) OTE(Q6.0)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTD Counter_5 CD:=I5.5 R:=I5.7 PV:=75", "target": "CTD(Counter_5,75)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I1.4 AND I7.1 -> Q0.4", "target": "XIC(I1.4) XIC(I7.1) OTE(Q0.4)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTD Counter_37 CD:=I7.4 R:=I6.5 PV:=3", "target": "CTD(Counter_37,3)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I2.1 -> Q7.0", "target": "XIO(I2.1) OTE(Q7.0)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I4.2 OR I3.6 -> Q6.7", "target": "XIC(I4.2) OTE(Q6.7)\nXIC(I3.6) OTE(Q6.7)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I2.7 AND I6.4 -> Q2.6", "target": "XIC(I2.7) XIC(I6.4) OTE(Q2.6)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TOF Timer_18 IN:=I6.5 PT:=T#30s", "target": "TOF(Timer_18,30000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I2.1 OR I2.2 -> Q3.3", "target": "XIC(I2.1) OTE(Q3.3)\nXIC(I2.2) OTE(Q3.3)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I7.2 AND I4.4 -> Q0.2", "target": "XIC(I7.2) XIC(I4.4) OTE(Q0.2)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "SET Q5.5", "target": "OTL(Q5.5)", "category": "latch_set", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTD Counter_33 CD:=I0.7 R:=I6.6 PV:=52", "target": "CTD(Counter_33,52)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I7.6 AND I0.3 -> Q1.3", "target": "XIC(I7.6) XIC(I0.3) OTE(Q1.3)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "RESET Q2.1", "target": "OTU(Q2.1)", "category": "latch_reset", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TON Timer_4 IN:=I1.0 PT:=T#10s", "target": "TON(Timer_4,10000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TON Timer_7 IN:=I5.0 PT:=T#0.5s", "target": "TON(Timer_7,500)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TOF Timer_25 IN:=I2.4 PT:=T#2s", "target": "TOF(Timer_25,2000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "RESET Q1.1", "target": "OTU(Q1.1)", "category": "latch_reset", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "RESET Q7.7", "target": "OTU(Q7.7)", "category": "latch_reset", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I2.1 AND I5.4 -> Q7.2", "target": "XIC(I2.1) XIC(I5.4) OTE(Q7.2)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TON Timer_2 IN:=I3.5 PT:=T#1s", "target": "TON(Timer_2,1000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TOF Timer_20 IN:=I1.4 PT:=T#10s", "target": "TOF(Timer_20,10000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I5.3 OR I5.3 -> Q3.3", "target": "XIC(I5.3) OTE(Q3.3)\nXIC(I5.3) OTE(Q3.3)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "RESET Q3.3", "target": "OTU(Q3.3)", "category": "latch_reset", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I0.0 -> Q4.7", "target": "XIO(I0.0) OTE(Q4.7)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I3.5 -> Q7.5", "target": "XIO(I3.5) OTE(Q7.5)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I1.3 -> Q1.3", "target": "XIO(I1.3) OTE(Q1.3)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "SET Q3.5", "target": "OTL(Q3.5)", "category": "latch_set", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "RESET Q0.7", "target": "OTU(Q0.7)", "category": "latch_reset", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTD Counter_6 CD:=I1.6 R:=I3.7 PV:=23", "target": "CTD(Counter_6,23)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTU Counter_22 CU:=I1.6 R:=I7.6 PV:=96", "target": "CTU(Counter_22,96)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTD Counter_11 CD:=I2.2 R:=I0.2 PV:=76", "target": "CTD(Counter_11,76)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTU Counter_10 CU:=I7.5 R:=I2.2 PV:=3", "target": "CTU(Counter_10,3)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTU Counter_42 CU:=I1.2 R:=I6.3 PV:=28", "target": "CTU(Counter_42,28)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I3.4 -> Q3.5", "target": "XIO(I3.4) OTE(Q3.5)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I6.2 -> Q0.5", "target": "XIO(I6.2) OTE(Q0.5)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "SET Q6.2", "target": "OTL(Q6.2)", "category": "latch_set", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TON Timer_33 IN:=I0.7 PT:=T#1s", "target": "TON(Timer_33,1000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I2.2 OR I7.1 -> Q0.5", "target": "XIC(I2.2) OTE(Q0.5)\nXIC(I7.1) OTE(Q0.5)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTD Counter_34 CD:=I7.1 R:=I0.3 PV:=25", "target": "CTD(Counter_34,25)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I1.7 AND I0.1 -> Q7.5", "target": "XIC(I1.7) XIC(I0.1) OTE(Q7.5)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TOF Timer_33 IN:=I3.4 PT:=T#5s", "target": "TOF(Timer_33,5000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TON Timer_16 IN:=I4.3 PT:=T#5s", "target": "TON(Timer_16,5000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "RESET Q1.6", "target": "OTU(Q1.6)", "category": "latch_reset", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I1.3 -> Q6.1", "target": "XIO(I1.3) OTE(Q6.1)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I4.1 OR I2.5 -> Q2.4", "target": "XIC(I4.1) OTE(Q2.4)\nXIC(I2.5) OTE(Q2.4)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I7.3 OR I1.6 -> Q7.2", "target": "XIC(I7.3) OTE(Q7.2)\nXIC(I1.6) OTE(Q7.2)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTU Counter_15 CU:=I2.6 R:=I6.5 PV:=54", "target": "CTU(Counter_15,54)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I5.1 -> Q5.0", "target": "XIO(I5.1) OTE(Q5.0)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I7.7 -> Q0.6", "target": "XIO(I7.7) OTE(Q0.6)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I4.1 -> Q1.3", "target": "XIO(I4.1) OTE(Q1.3)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I1.4 AND I4.0 -> Q2.4", "target": "XIC(I1.4) XIC(I4.0) OTE(Q2.4)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I6.4 OR I6.2 -> Q7.5", "target": "XIC(I6.4) OTE(Q7.5)\nXIC(I6.2) OTE(Q7.5)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I4.0 AND I2.6 -> Q1.4", "target": "XIC(I4.0) XIC(I2.6) OTE(Q1.4)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I1.4 AND I1.3 -> Q1.4", "target": "XIC(I1.4) XIC(I1.3) OTE(Q1.4)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I7.0 AND I5.6 -> Q4.2", "target": "XIC(I7.0) XIC(I5.6) OTE(Q4.2)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I3.1 AND I2.4 -> Q0.2", "target": "XIC(I3.1) XIC(I2.4) OTE(Q0.2)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I4.4 OR I3.4 -> Q7.2", "target": "XIC(I4.4) OTE(Q7.2)\nXIC(I3.4) OTE(Q7.2)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I5.0 -> Q4.0", "target": "XIO(I5.0) OTE(Q4.0)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I0.3 AND I7.3 -> Q7.1", "target": "XIC(I0.3) XIC(I7.3) OTE(Q7.1)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTU Counter_42 CU:=I6.7 R:=I6.4 PV:=89", "target": "CTU(Counter_42,89)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I5.3 OR I2.6 -> Q5.0", "target": "XIC(I5.3) OTE(Q5.0)\nXIC(I2.6) OTE(Q5.0)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I0.1 OR I4.6 -> Q2.0", "target": "XIC(I0.1) OTE(Q2.0)\nXIC(I4.6) OTE(Q2.0)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I6.4 AND I3.4 -> Q0.7", "target": "XIC(I6.4) XIC(I3.4) OTE(Q0.7)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I2.4 OR I7.0 -> Q4.5", "target": "XIC(I2.4) OTE(Q4.5)\nXIC(I7.0) OTE(Q4.5)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I5.3 -> Q0.4", "target": "XIO(I5.3) OTE(Q0.4)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I5.2 OR I0.5 -> Q6.1", "target": "XIC(I5.2) OTE(Q6.1)\nXIC(I0.5) OTE(Q6.1)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "SET Q4.3", "target": "OTL(Q4.3)", "category": "latch_set", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TON Timer_50 IN:=I0.1 PT:=T#2s", "target": "TON(Timer_50,2000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I6.0 OR I6.0 -> Q4.4", "target": "XIC(I6.0) OTE(Q4.4)\nXIC(I6.0) OTE(Q4.4)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTD Counter_15 CD:=I1.2 R:=I6.5 PV:=93", "target": "CTD(Counter_15,93)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I4.2 OR I0.6 -> Q2.0", "target": "XIC(I4.2) OTE(Q2.0)\nXIC(I0.6) OTE(Q2.0)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTD Counter_38 CD:=I3.1 R:=I0.0 PV:=18", "target": "CTD(Counter_38,18)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I6.7 AND I0.0 -> Q3.7", "target": "XIC(I6.7) XIC(I0.0) OTE(Q3.7)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I0.7 -> Q1.1", "target": "XIO(I0.7) OTE(Q1.1)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTU Counter_34 CU:=I1.7 R:=I4.1 PV:=34", "target": "CTU(Counter_34,34)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTU Counter_49 CU:=I3.3 R:=I7.7 PV:=49", "target": "CTU(Counter_49,49)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "SET Q4.0", "target": "OTL(Q4.0)", "category": "latch_set", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I2.5 AND I4.4 -> Q2.0", "target": "XIC(I2.5) XIC(I4.4) OTE(Q2.0)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "RESET Q0.7", "target": "OTU(Q0.7)", "category": "latch_reset", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "CTD Counter_7 CD:=I3.7 R:=I4.4 PV:=60", "target": "CTD(Counter_7,60)", "category": "counter", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "RESET Q1.3", "target": "OTU(Q1.3)", "category": "latch_reset", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I7.0 AND I4.7 -> Q1.7", "target": "XIC(I7.0) XIC(I4.7) OTE(Q1.7)", "category": "basic_logic_and", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "NOT I6.3 -> Q3.1", "target": "XIO(I6.3) OTE(Q3.1)", "category": "basic_logic_not", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TON Timer_6 IN:=I2.4 PT:=T#2s", "target": "TON(Timer_6,2000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "TOF Timer_41 IN:=I4.1 PT:=T#30s", "target": "TOF(Timer_41,30000)", "category": "timer", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "I7.7 OR I6.0 -> Q2.0", "target": "XIC(I7.7) OTE(Q2.0)\nXIC(I6.0) OTE(Q2.0)", "category": "basic_logic_or", "source_vendor": "Siemens", "target_vendor": "Rockwell"}
+{"source": "RESET Q7.6", "target": "OTU(Q7.6)", "category": "latch_reset", "source_vendor": "Siemens", "target_vendor": "Rockwell"}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PLC Code Converter — Siemens ⇄ Allen-Bradley</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>PLC CODE CONVERTER</h1>
+    <p class="subtitle">AI-Assisted Bidirectional Conversion — Siemens ⇄ Allen-Bradley</p>
+  </header>
+
+  <main>
+    <section class="panel controls">
+      <div class="field">
+        <label for="sourceVendor">Source PLC</label>
+        <select id="sourceVendor">
+          <option value="Siemens">Siemens</option>
+          <option value="Rockwell">Allen-Bradley (Rockwell)</option>
+        </select>
+      </div>
+
+      <button id="swapBtn" title="Swap source/target">⇄</button>
+
+      <div class="field">
+        <label for="targetVendor">Target PLC</label>
+        <select id="targetVendor">
+          <option value="Rockwell">Allen-Bradley (Rockwell)</option>
+          <option value="Siemens">Siemens</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="panel editors">
+      <div class="editor">
+        <div class="editor-label" id="sourceLabel">Siemens source</div>
+        <textarea id="sourceCode" spellcheck="false" placeholder="I0.0 AND I0.1 -> Q0.0
+NOT I0.2 -> Q0.1
+SET Q0.2
+TON Timer_1 IN:=I0.0 PT:=T#5s"></textarea>
+      </div>
+      <div class="editor">
+        <div class="editor-label" id="targetLabel">Allen-Bradley output</div>
+        <textarea id="targetCode" spellcheck="false" readonly placeholder="Converted code will appear here..."></textarea>
+      </div>
+    </section>
+
+    <section class="panel actions">
+      <button id="convertBtn">CONVERT</button>
+      <button id="loadExampleBtn" class="secondary">Load example</button>
+      <span id="statusMsg"></span>
+    </section>
+
+    <section class="panel results" id="resultsPanel" style="display:none;">
+      <div class="confidence-row">
+        <div class="confidence-badge" id="confidenceBadge">--%</div>
+        <div class="confidence-detail" id="confidenceDetail"></div>
+      </div>
+
+      <div class="result-grid">
+        <div>
+          <h3>Tag / Variable Mapping</h3>
+          <table id="tagTable"><thead><tr><th>Source tag</th><th>Target tag</th></tr></thead><tbody></tbody></table>
+        </div>
+        <div>
+          <h3>Warnings</h3>
+          <ul id="warningsList" class="warnings"></ul>
+          <h3>Logic Equivalence</h3>
+          <div id="equivalenceBox"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>⚠ Converted logic requires review and testing in the appropriate Siemens / Rockwell
+       engineering environment before use on real machinery. This is an educational prototype,
+       not a certified industrial conversion tool.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
